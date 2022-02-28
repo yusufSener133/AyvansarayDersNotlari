@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &339933157124677678
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 339933157124677679}
+  - component: {fileID: 339933157124677676}
+  m_Layer: 0
+  m_Name: AgacSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &339933157124677679
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339933157124677678}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10, y: -2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &339933157124677676
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 339933157124677678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9552e248ddb3f07448313eefb9bd0e52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _treeEnemy:
+  - {fileID: 959170931289115428, guid: ac0153c253db5184dba0a6a331378b3e, type: 3}
+  - {fileID: 6345491883177808388, guid: 4171c5af23f88b642bd4ded2aabff000, type: 3}
+  - {fileID: 3210495512202163622, guid: eefd9cc6507fb9644a51c6927b0f9467, type: 3}
+  - {fileID: 4652393563677342814, guid: 87197c1d9992ed14c83578459525e86e, type: 3}
+  _minSpawnTime: 0.1
+  _maxSpawnTime: 1
+  _currentTime: 0
