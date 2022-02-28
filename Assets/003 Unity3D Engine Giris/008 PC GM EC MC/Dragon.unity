@@ -241,6 +241,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 330085523}
     m_Modifications:
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _minSpawnTime
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _Enemy.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _Enemy.Array.data[0]
+      value: 
+      objectReference: {fileID: 959170931289115428, guid: ac0153c253db5184dba0a6a331378b3e, type: 3}
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _Enemy.Array.data[1]
+      value: 
+      objectReference: {fileID: 6345491883177808388, guid: 4171c5af23f88b642bd4ded2aabff000, type: 3}
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _Enemy.Array.data[2]
+      value: 
+      objectReference: {fileID: 3210495512202163622, guid: eefd9cc6507fb9644a51c6927b0f9467, type: 3}
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _Enemy.Array.data[3]
+      value: 
+      objectReference: {fileID: 4652393563677342814, guid: 87197c1d9992ed14c83578459525e86e, type: 3}
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _Enemy.Array.data[4]
+      value: 
+      objectReference: {fileID: 4652393563677342814, guid: 87197c1d9992ed14c83578459525e86e, type: 3}
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _Enemy.Array.data[5]
+      value: 
+      objectReference: {fileID: 3210495512202163622, guid: eefd9cc6507fb9644a51c6927b0f9467, type: 3}
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _Enemy.Array.data[6]
+      value: 
+      objectReference: {fileID: 6345491883177808388, guid: 4171c5af23f88b642bd4ded2aabff000, type: 3}
+    - target: {fileID: 339933157124677676, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
+      propertyPath: _Enemy.Array.data[7]
+      value: 
+      objectReference: {fileID: 959170931289115428, guid: ac0153c253db5184dba0a6a331378b3e, type: 3}
     - target: {fileID: 339933157124677678, guid: 66b7f3fb439965a4f9c04d51098340ce, type: 3}
       propertyPath: m_Name
       value: AgacSpawner
@@ -312,7 +352,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3656949513055562847, guid: fe9bc549443431a4ca14e6b421919c8d, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3656949513055562847, guid: fe9bc549443431a4ca14e6b421919c8d, type: 3}
       propertyPath: m_LocalPosition.y
@@ -374,10 +414,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ea23a5a1fce59454cb88d7d8f0393c01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _redDragonEnemy: {fileID: 3622856187371143753, guid: 8aa9ce87b961eb94ea371e0353c63903, type: 3}
   _minSpawnTime: 0.1
-  _maxSpawnTime: 1.93
-  _currentTime: 0
+  _maxSpawnTime: 4.27
+  _Enemy: {fileID: 3622856187371143753, guid: 8aa9ce87b961eb94ea371e0353c63903, type: 3}
 --- !u!1001 &1774440660854224076
 PrefabInstance:
   m_ObjectHideFlags: 0
