@@ -4,9 +4,9 @@ using UnityEngine;
 
 public sealed class TreeSpawner : BaseSpawner
 {
-    [SerializeField] EnemyController[] _Enemy;
+    [SerializeField] EnemyController[] _enemy;
     protected override void EnemySpawner()
     {
-        Instantiate(_Enemy[Random.Range(0, _Enemy.Length)], this.transform.position, this.transform.rotation, this.transform);
+        Instantiate(_enemy[Random.Range(0, _enemy.Length)], this.transform.position, this.transform.rotation, this.transform);
     }
 }

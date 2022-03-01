@@ -21,10 +21,7 @@ public class MoveCompanent : MonoBehaviour
 
     Vector2 DirectionSelect()
     {
-        if (Input.GetKey(KeyCode.B))
-        {
-
-        }
+        
         Vector2 _directionVector2;
         if (_directionEnum == DirectionEnum.Left)
         {
