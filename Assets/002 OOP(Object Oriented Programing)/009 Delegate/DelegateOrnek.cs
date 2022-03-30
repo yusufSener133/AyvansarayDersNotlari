@@ -81,18 +81,4 @@ public class DelegateOrnek : MonoBehaviour
         int sonuc1 = sayi1 * sayi2;
         Debug.Log(sonuc + sonuc1);
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

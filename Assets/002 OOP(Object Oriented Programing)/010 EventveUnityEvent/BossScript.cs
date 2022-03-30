@@ -19,7 +19,7 @@ public class BossScript : MonoBehaviour
     void Awake()
     {//awakede yazmak onemlidir.
      //_eventOrnek2 = FindObjectOfType<EventOrnek>();  //Hierarchy taranir ve EventOrnek bulunarak referans alir.
-     //_eventOrnek3 = GetComponent<EventOrnek>();      //scriptin atili oldugu mainde falna filan
+     //_eventOrnek3 = GetComponent<EventOrnek>();      //scriptin atili oldugu mainde falan filan
     }
     void Update()
     {

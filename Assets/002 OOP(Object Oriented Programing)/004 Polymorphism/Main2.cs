@@ -19,15 +19,9 @@ public class Main2 : MonoBehaviour
         BMW1.SatisYap();
 
         string aracFiyatiBMW = BMW1.ToplamFiyati.ToString();
-        
-        Mersedes mersedes = new Mersedes();
-        mersedes.Marka = "mersedes";
-        mersedes.Model = "M5";
-        mersedes.SifirMi = true;
-        mersedes.YuzuyorMu = true;
-        mersedes.Hizi = 380f;
-        mersedes.KapiSayisi = 2;
-        mersedes.Fiyati = 380000;
+
+        Mersedes mersedes = new Mersedes() { Marka = "mersedes", Model = "M5", SifirMi = true, YuzuyorMu = true, Hizi = 380f, KapiSayisi = 2, Fiyati = 380000};
+       
 
         mersedes.SatisYap();
 
